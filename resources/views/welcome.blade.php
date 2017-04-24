@@ -72,7 +72,8 @@
 
           <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                        <input  type="texto" class="form-control" name="password" value="TOTALMENTESATISFECHO"placeholder="Password" required="" readonly="">
+                        <input  type="texto" class="form-control" name="password" value="TOTALMENTESATISFECHO"
+                        placeholder="Password" required="" readonly="">
                     </div>
 
           

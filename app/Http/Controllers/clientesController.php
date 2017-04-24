@@ -13,7 +13,7 @@ class clientesController extends Controller
     }
  
     public function guardarCliente(Request $datos){
-    	$cliente= new Cliente();
+      $cliente= new Cliente();
     	$cliente->Correo=$datos->input('correo');
     	$cliente->Password=$datos->input('password');
 
