@@ -86,7 +86,7 @@
                 <label class="checkbox">
                 
         <input name="remember" type="checkbox" value="Política" required=""> Debes aceptar las <a data-toggle="modal" data-target="#alertModal" tabindex="3" >¡Políticas de Privacidad! </a> y uso para poder Conectarte a la Red.</input>
-
+        <!--checkbox requerido-->
         <!--<button type="button" class="btn btn-link" data-toggle="modal" d ata-target="#alertModal" tabindex="3">¡Politicas de Privacidad!-->
 
 
