@@ -72,7 +72,7 @@
 
           <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                        <input  type="texto" class="form-control" name="password" value="TOTALMENTESATISFECHO"
+                        <input  type="texto" class="form-control" name="password" value="EXPERIENCIADE10"
                         placeholder="Password" required="" readonly="">
                     </div>
 
