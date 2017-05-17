@@ -327,5 +327,23 @@
     <script src="{{asset("js/footer.js")}}"></script>
     <script src="{{asset("js/Politica.js")}}"></script>
 
+
+
+    <!--VALIDES DE CHECKBOX(PROBLEMA EN MENSAJE DE ALERTA)-->
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#formulario").submit(function(){
+        var condiciones = $("#politicas").is(":checked");
+        if (!condiciones) {
+
+            //alert("Debe aceptar las politicas para poder Navegar");
+            event.preventDefault();
+        }
+    });
+});
+
+    </script>
+
 </body>
 </html>
