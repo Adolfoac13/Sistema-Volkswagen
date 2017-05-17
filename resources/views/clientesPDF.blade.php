@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Listado de Clientes Conectados.</title>
+	<title>Listado de Clientes Conectados</title>
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/png" href="http://m.vw.com.mx/apps/vwd4_mobile/docroot276550791/frontend/resources/img/favicon.ico">
 	
