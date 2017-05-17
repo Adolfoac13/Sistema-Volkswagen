@@ -328,6 +328,26 @@
     <script src="{{asset("js/Politica.js")}}"></script>
 
 
+ <!--LO QUE PUSO EL MAESTRO Y PUSO EL ID=correo-->
+    <script type="text/javascript">
+     
+      $(document).ready(function(){
+        $("#error").hide();
+        $("#formulario").submit(function(){
+         if($("#correo").val().indexOf('@', 0) == -1 || $("#correo").val().indexOf('.', 0) == -1) {
+           // alert('El correo electrónico introducido no es correcto.');
+            $("#correo").css("border-color","#FF0000");
+            $("#error").show();
+            $("#error").hide(5000);
+        
+              return false;               
+        }
+
+    });
+});
+
+    </script>
+
 
     <!--VALIDES DE CHECKBOX(PROBLEMA EN MENSAJE DE ALERTA)-->
     
